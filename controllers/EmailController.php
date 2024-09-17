@@ -35,7 +35,7 @@ class EmailController
             $html = $router->load('email/saludo');
             $email->Body = $html;
             $email->Subject = "Prueba de correo";
-            $email->addAddress('rcastellanos11383@gmail.com', 'Ronaldd Castellanos');
+            $email->addAddress('abnerfuentes05@gmail.com', 'A/F Fuentes Juarez');
 
             // Ruta del PDF generado
             $pdfPath = __DIR__ . '/../public/files/reporte.pdf';
