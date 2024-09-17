@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333;
+    text-align: center;
+}
+.welcome-message {
+    background-color: #4CAF50;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.footer {
+    margin-top: 50px;
+    font-size: 12px;
+    color: #777;
+    text-align: center;
+}
+.pagebreak {
+    page-break-before: always;
+}
